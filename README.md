@@ -56,7 +56,7 @@ SuperTrend 指标基于平均真实波幅（ATR）计算：
 - A: 乘数越大，轨道越宽，信号越少但准确度可能更高；乘数越小，轨道越窄，信号更频繁
 
 **Q: 如何更换我想测试的对象？**
-- A: 在get_satellite_etf_data(symbol='562590', limit=700)中，修改symbol的值即可
+- A: 在Config中，修改symbol的值即可
 
 ## 贡献指南
 
